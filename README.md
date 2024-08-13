@@ -2,21 +2,21 @@ Overview:
 
 The Czechoslovakia Bank has shared a comprehensive dataset detailing its financial activities over the past five years. This dataset, meticulously compiled over several weeks, encompasses 1 million records across eight distinct tables:
 
-    Account: This table details client accounts with information such as account ID, opening date, client ID, and account type.
+Account: This table details client accounts with information such as account ID, opening date, client ID, and account type.
 
-    Card: This table covers card issuance details, including card ID, issue date, and card type.
+Card: This table covers card issuance details, including card ID, issue date, and card type.
 
-    Client: This table contains client-specific data, including client ID, birthdate, gender, and district of residence.
+Client: This table contains client-specific data, including client ID, birthdate, gender, and district of residence.
 
-    Disposition: This table describes the relationship between clients and their accounts, including disposition ID, client ID, and type of relationship (e.g., owner, authorized person).
+Disposition: This table describes the relationship between clients and their accounts, including disposition ID, client ID, and type of relationship (e.g., owner, authorized person).
 
-    District: This table provides information about various districts in Czechoslovakia, including district ID, name, and demographic and economic indicators.
+District: This table provides information about various districts in Czechoslovakia, including district ID, name, and demographic and economic indicators.
 
-    Loan: This table records details of loans issued by the bank, including loan ID, issue date, associated account ID, and loan amount.
+Loan: This table records details of loans issued by the bank, including loan ID, issue date, associated account ID, and loan amount.
 
-    Order: This table lists client orders with information such as order ID, associated account ID, issue date, and description.
+Order: This table lists client orders with information such as order ID, associated account ID, issue date, and description.
 
-    Transaction: This table documents client transactions, including transaction ID, account ID, transaction date, type, and amount.
+Transaction: This table documents client transactions, including transaction ID, account ID, transaction date, type, and amount.
 
 Purpose of Analysis:
 
@@ -42,8 +42,8 @@ increase profitability?
 Analysis Approach:
 To achieve these objectives, the analysis will involve:
 
-    Data Cleaning: Ensuring the dataset is accurate and consistent.
-    Exploratory Data Analysis (EDA): Investigating the data to uncover initial patterns and insights.
-    Predictive Modelling: Using statistical and machine learning techniques to identify trends and forecast future outcomes.
+Data Cleaning: Ensuring the dataset is accurate and consistent.
+Exploratory Data Analysis (EDA): Investigating the data to uncover initial patterns and insights.
+Predictive Modelling: Using statistical and machine learning techniques to identify trends and forecast future outcomes.
 
 The ultimate goal is to provide actionable recommendations that will help the Czechoslovakia Bank optimize its financial operations and strategic planning.

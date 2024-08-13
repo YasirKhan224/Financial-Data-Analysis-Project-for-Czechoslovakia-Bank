@@ -1,34 +1,26 @@
-Financial Data Analysis For Czechoslovakia Bank 
-This project is on the datasets manually created by me over a period of so many weeks which covers 1M records generated on a random basis involving 8 tables. A must project to showcase in your resume. Just Try It out.
+Overview:
 
-# Introduction : 
+The Czechoslovakia Bank has shared a comprehensive dataset detailing its financial activities over the past five years. This dataset, meticulously compiled over several weeks, encompasses 1 million records across eight distinct tables:
 
-The Czechoslovakia Bank has provided a dataset containing information about its financial activities for the past 5 years. The dataset consists of the following tables:
+    Account: This table details client accounts with information such as account ID, opening date, client ID, and account type.
 
-1. Account: This table contains information about the accounts held by the bank's clients. It includes the account ID, the date the account was opened,
-the associated client ID, and the account type.
+    Card: This table covers card issuance details, including card ID, issue date, and card type.
 
-2. Card: This table contains information about the card issued by the bank. It includes the card ID, the date the card was issued, and the card type.
+    Client: This table contains client-specific data, including client ID, birthdate, gender, and district of residence.
 
-3. Client: This table contains information about the bank's clients. It includes the client ID, the client's birthdate, gender, and the district where the client
-lives.
+    Disposition: This table describes the relationship between clients and their accounts, including disposition ID, client ID, and type of relationship (e.g., owner, authorized person).
 
-4. Disposition: This table contains information about the relationship between clients and their accounts. It includes the disposition ID, the client ID
-associated with the disposition, and the type of disposition (e.g., owner,authorized person, etc.).
+    District: This table provides information about various districts in Czechoslovakia, including district ID, name, and demographic and economic indicators.
 
-5. District: This table contains information about the various districts in Czechoslovakia. It includes the district ID, the name of the district, and
-various demographic and economic indicators for the district.
+    Loan: This table records details of loans issued by the bank, including loan ID, issue date, associated account ID, and loan amount.
 
-6. Loan: This table contains information about the loans issued by the bank. It includes the loan ID, the date the loan was issued, the account ID associated with the loan, the amount of the loan.
+    Order: This table lists client orders with information such as order ID, associated account ID, issue date, and description.
 
-7. Order: This table contains information about the orders issued by the bank's clients. It includes the order ID, the account ID associated with the order, the
-date the order was issued, and a description of the order.
+    Transaction: This table documents client transactions, including transaction ID, account ID, transaction date, type, and amount.
 
-8. Transaction: This table contains information about the transactions made by the bank's clients. It includes the transaction ID, the account ID associated with the transaction, the transaction date, the type of transaction, and the transaction amount.
+Purpose of Analysis:
 
-# Ad-hoc Data Analysis : 
-
-The Czechoslovakia Bank wants to analyse its financial data to gain insights and make informed decisions. The bank needs to identify trends, patterns, and potential risks in its financial operations. They also want to explore the possibility of introducing new financial products or services based on their analysis.
+The Czechoslovakia Bank aims to leverage this data to gain valuable insights and make informed decisions regarding its financial operations. The analysis will focus on identifying trends, uncovering patterns, and assessing potential risks. Additionally, the bank seeks to explore opportunities for introducing new financial products or services based on the findings.    
 
 The bank has identified the following questions as important for their analysis:
 1. What is the demographic profile of the bank's clients and how does it vary across
@@ -47,4 +39,11 @@ client segments?
 8. Can the bank introduce new financial products or services to attract more customers and
 increase profitability?
 
-The objective of this analysis is to provide the Czechoslovakia Bank with actionable insights that can help them make informed decisions about their financial operations. The analysis will involve data cleaning, exploratory data analysis, and predictive modelling to identify patterns and trends in the data.
+Analysis Approach:
+To achieve these objectives, the analysis will involve:
+
+    Data Cleaning: Ensuring the dataset is accurate and consistent.
+    Exploratory Data Analysis (EDA): Investigating the data to uncover initial patterns and insights.
+    Predictive Modelling: Using statistical and machine learning techniques to identify trends and forecast future outcomes.
+
+The ultimate goal is to provide actionable recommendations that will help the Czechoslovakia Bank optimize its financial operations and strategic planning.

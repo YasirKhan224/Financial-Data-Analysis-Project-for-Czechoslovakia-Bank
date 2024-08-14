@@ -43,7 +43,7 @@ Analysis Approach:
 To achieve these objectives, the analysis will involve:
 
 Data Cleaning: Ensuring the dataset is accurate and consistent.
-Exploratory Data Analysis (EDA): Investigating the data to uncover initial patterns and insights.
-Predictive Modelling: Using statistical and machine learning techniques to identify trends and forecast future outcomes.
+Exploratory Data Analysis (EDA): Investigating the data to uncover initial patterns and insights using Sql.
+Data Visualization: Using Python.
 
 The ultimate goal is to provide actionable recommendations that will help the Czechoslovakia Bank optimize its financial operations and strategic planning.
